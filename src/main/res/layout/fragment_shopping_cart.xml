@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.miapplication.ShoppingCartFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity=""
+        android:text="购物车"
+        android:textSize="32dp"
+        android:textColor="#F3F3F3"
+        android:gravity="center"
+        android:background="#EABA5A"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_gravity=""
+        android:gravity="center"
+        android:background="@mipmap/shoppong_cart_m"/>
+
+        <Button
+            android:id="@+id/btn_goto_main"
+            android:layout_marginTop="10dp"
+            android:layout_width="70dp"
+            android:layout_height="45dp"
+            android:text="去逛逛"
+            android:background="@drawable/shape"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity=""
+            android:text="为您推荐"
+            android:textSize="24dp"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:background="#FFFFFF"/>
+
+        <GridView
+            android:id="@+id/center_bottom"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="1000dp"
+            android:numColumns="2"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

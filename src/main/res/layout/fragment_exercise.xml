@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ClassificationFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/search1"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_height="wrap_content"
+            android:textColor="#F4F4F4"
+            android:text="新风"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/right_top1"/>
+
+    </LinearLayout>
+
+        <GridView
+            android:id="@+id/center_bottom"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:numColumns="3"/>
+    </LinearLayout>
+
+
+</LinearLayout>

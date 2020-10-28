@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.miapplication.EnjoyFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="#FF8514">
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="80dp"
+            android:src="@mipmap/left_top_e"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="80dp"
+            android:src="@mipmap/center_top_e"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="80dp"
+            android:src="@mipmap/right_top_e"/>
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/center_bottom"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="450dp"
+        android:numColumns="2"/>
+    </LinearLayout>
+
+</FrameLayout>

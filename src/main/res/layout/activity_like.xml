@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.miapplication.LikeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="#B23E6D">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/left_top"/>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="8"
+                    android:layout_height="wrap_content"
+                    android:text="搜索"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/reight_top"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#B23E6D"/>
+
+            <LinearLayout
+                android:layout_marginTop="-30dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@mipmap/top04">
+
+
+                <ImageView
+                    android:id="@+id/HomeHostFragment_imageView"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp" />
+            </LinearLayout>
+
+
+            <GridView
+                android:id="@+id/center_content"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:numColumns="5"/>
+
+            <GridView
+                android:id="@+id/center_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="1000dp"
+                android:layout_marginTop="20dp"
+                android:numColumns="2" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

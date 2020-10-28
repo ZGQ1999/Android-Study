@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4F4F4"
+    tools:context="com.example.miapplication.AlipayActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="@mipmap/top_top_ay"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:orientation="vertical"
+            android:background="#FFFFFF">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@mipmap/center01_ay"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@mipmap/center02_ay"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@mipmap/center03_ay"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@mipmap/center04_ay"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:background="#FFFFFF">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@mipmap/bottom01_ay"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@mipmap/bottom02_ay"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@mipmap/bottom03_ay"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

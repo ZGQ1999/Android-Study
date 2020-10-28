@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.miapplication.CommodityActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                android:background="@mipmap/top_cd"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="工程抓放机套装"
+                    android:textSize="36dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="重复旋转，学习工业机械流水线，3种奇妙形态变化。"
+                    android:textSize="16dp"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@mipmap/top02_cd"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@mipmap/center_cd"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@mipmap/center01_cd"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@mipmap/center02_cd"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@mipmap/bottom02_cd"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@mipmap/bottom01_cd"/>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_goto_order"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@mipmap/bottom_cd" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
